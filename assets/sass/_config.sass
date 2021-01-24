@@ -1,0 +1,361 @@
+@import "components/bourbon/bourbon"
+
+//  FONTS
+// https://www.nespresso.com/shared_res/agility/commons/fonts/
+@font-face
+	font-family: 'NespressoLucas-Light'
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.eot')
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.eot?#iefix') format('embedded-opentype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.svg#NespressoLucas-Light') format('svg'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.ttf') format('truetype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: 'NespressoLucas-Regular'
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.eot')
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.eot?#iefix') format('embedded-opentype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.svg#NespressoLucas-Regular') format('svg'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.ttf') format('truetype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: 'NespressoLucas-SemiBd'
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.eot')
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.eot?#iefix') format('embedded-opentype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.svg#NespressoLucas-SemiBd') format('svg'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.ttf') format('truetype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: 'NespressoLucas-Medium'
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.eot')
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.eot?#iefix') format('embedded-opentype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.svg#NespressoLucas-Medium') format('svg'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.ttf') format('truetype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: 'NespressoLucas-Bold'
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.eot')
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.eot?#iefix') format('embedded-opentype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.svg#NespressoLucas-Bold') format('svg'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.ttf') format('truetype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+@font-face
+	font-family: 'NespressoLucas-XtraBd'
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.eot')
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.eot?#iefix') format('embedded-opentype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.svg#NespressoLucas-XtraBd') format('svg'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.ttf') format('truetype'),
+	src: url('https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.woff') format('woff')
+	font-weight: normal
+	font-style: normal
+
+@import "variables"
+
+// EXTENDS CLASSES
+%transition
+	@include transition(all .4s linear)
+%circle
+	@include border-top-radius(50%)
+	@include border-bottom-radius(50%)
+%blockCenter
+	margin-left: auto
+	margin-right: auto
+%clearfix		
+	content: '.'
+	display: block
+	clear: both
+	height: 0
+	line-height: 0
+	font-size: 0
+	visibility: hidden
+	overflow: hidden
+
+// RESET
+*
+	margin: 0
+	padding: 0
+	text-decoration: none
+	outline: none
+
+#responsive-overlay
+	display: none
+
+.ResponsiveContainer
+	margin-bottom: 0
+
+#bodyFake
+	font-family: $font-Light
+	font-weight: 300
+	font-size: 20px
+	line-height: 1.2em
+	background: $white
+	position: relative
+	overflow-x: hidden
+	color: $black
+	@media(max-width: 768px)
+		font-size: 26px
+	.gridD
+		max-width: 1050px
+		+margin(null auto)
+	h1, h2, h3, h4, h5, h6, p, strong, ul, li, a
+		+margin(0)
+		+padding(0)
+	button::not('.QuantitySelectorCustomField__button-ok')
+		+padding(0)
+		+margin(0)
+	h1
+		font-size: 48px
+		line-height: 64px
+		font-family: $font-Bold
+	h2
+		font-size: 36px
+		line-height: 48px
+		font-family: $font-Bold
+		color: black
+		@media(max-width: 1050px)
+			font-size: 30px
+			line-height: 33px
+	p
+		font-size: 18px
+		line-height: 24px
+	strong
+		font-family: $font-Bold
+		font-weight: 400
+	.slick-arrow
+		+size(45px)
+		z-index: 1
+		&::before, &::after
+			opacity: .75
+		@media(max-width: 580px)
+			+size(30px)
+		&:focus, &:hover
+			&:before, &::after
+				opacity: 1
+		&.slick-prev
+			left: 50%
+			margin-left: -260px
+			@media(max-width: 1050px)
+				margin-left: -140px
+		&.slick-next
+			right: 50%
+			margin-top: 16px
+			margin-right: -260px
+			@media(max-width: 1050px)
+				margin-right: -140px
+			&::after
+				top: -19px
+			@media(max-width: 580px)
+				&::before
+					top: -6px
+		&::before, &::after
+			position: relative
+			+size(25px 3px)
+			content: ''
+			background: $white
+			display: block
+			+transform(rotate(-45deg))
+			@media(max-width: 580px)
+				width: 15px
+		&::after
+			top: 13px
+			+transform(rotate(45deg))
+			@media(max-width: 580px)
+				top: 7px
+		&.slick-disabled
+			cursor: default
+			&::before, &::after
+				display: none
+	.slick-dots
+		position: relative
+		li
+			+size(auto)
+			+ li
+				margin-left: 10px
+			&.slick-active
+				button
+					background: $gold
+			button
+				+padding(0)
+				+size(18px)
+				background: transparent
+				border: 2px solid $gold
+				display: block
+				border-radius: 100%
+				&::before
+					content: none
+	.icon-circle
+		+display(flex)
+		+align-items(center)
+		+justify-content(center)
+		font-size: 22px
+		line-height: 1em
+		color: $white
+		background: #8F7247
+		+size(30px)
+		border-radius: 50%
+		font-family: $font-Bold
+	.icon-button
+		border: 1.5px solid #46535F
+		+size(30px)
+		border-radius: 50%
+		+position(absolute, null)
+		+display(flex)
+		+align-items(center)
+		+justify-content(center)
+		+flex-direction(column)
+		cursor: pointer
+		span
+			+size(15px 2px)
+			background: #46535F
+			display: block
+			position: relative
+			+ span
+				margin-top: 3px
+		&-close
+			span
+				&:first-child
+					top: 5px
+					+transform(rotate(45deg))
+				&:nth-child(2)
+					opacity: 0
+				&:last-child
+					bottom: 5px
+					+transform(rotate(-45deg))
+	.button
+		a
+			font-size: 18px
+			display: inline-block
+			background: #46535F
+			border-radius: 3px
+			color: $white
+			text-transform: uppercase
+			font-family: $font-Semi
+			+padding(9px 30px)
+			@extend %transition
+			&:hover
+				background: $black
+		&-green
+			a
+				background: #72A689
+		&-center
+			text-align: center
+	.title
+		@media(max-width: 992px)
+			max-width: 320px
+			+margin(null auto)
+		@media(max-width: 350px)
+			max-width: 300px
+		img
+			max-width: 250px
+			display: block
+			+margin(null auto 30px)
+		span
+			+size(60px)
+			+display(flex)
+			+align-items(center)
+			+justify-content(center)
+			font-size: 30px
+			font-family: $font-Regular
+			+margin(null auto 30px)
+			color: $gold
+			border-radius: 100%
+			border: 2px solid $gold
+		h2
+			font-size: 30px
+			font-family: $font-Semi
+			text-align: center
+			text-transform: uppercase
+			line-height: 1.1em
+			letter-spacing: 1.8px
+			padding-bottom: 20px
+			@media(max-width: 992px)
+				font-size: 21px
+				padding-bottom: 10px
+			@media(max-width: 350px)
+				font-size: 18px
+			span
+				font-family: $font-Regular
+		h3
+			font-size: 24px
+			line-height: 1.1em
+			text-align: center
+			font-family: $font-Regular
+			font-weight: 400
+			@media(max-width: 992px)
+				font-size: 21px
+		p
+			font-size: 15px
+			text-align: center
+			line-height: 1.1em
+
+	.cta
+		button, a
+			+appearance(none)
+			border: none
+			box-shadow: none
+			+padding(12px 30px 10px)
+			font-family: $font-Bold
+			text-transform: uppercase
+			color: $white
+			background: $gold
+			display: inline-block
+			cursor: pointer
+			border-radius: 3px
+			font-size: 18px
+			line-height: 21px
+			@extend %transition
+			&:hover
+				background: $beige
+				color: $gold
+		&-center
+			text-align: center
+	
+	.custom-add-to-bag
+		position: relative
+		.QuantitySelector
+			@media(max-width: 767px)
+			+position(absolute, 60px 180px null auto)
+			+transform(scale(1.3))
+			z-index: 2002
+		.custom-button-add
+			+size(30px)
+			border-radius: 3px
+			+display(flex)
+			+align-items(center)
+			+justify-content(center)
+			background: $gold
+			cursor: pointer
+			box-shadow: none
+			border: none
+			.quantityValue
+				color: $white
+				font-family: $font-Semi
+				img
+					display: block
+	
+#loader
+	border: 8px solid $beige
+	border-radius: 50%
+	border-top: 8px solid $gold
+	+size(50px)
+	+animation(spin 2s linear infinite)
+	display: none
+
++keyframes(spin)
+	0%
+		+transform(rotate(0))
+	100%
+		+transform(rotate(360deg))
