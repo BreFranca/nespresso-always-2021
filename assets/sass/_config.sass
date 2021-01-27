@@ -137,61 +137,46 @@
 	.slick-arrow
 		+size(45px)
 		z-index: 1
-		&::before, &::after
+		top: 200px
+		&::before
+			content: ''
 			opacity: .75
+			background: url('https://nespressotrade.com.br/shared_res/always-2021/icon-arrow.png') center center no-repeat
+			background-size: 100% auto
+			display: block
+			+size(44px)
 		@media(max-width: 580px)
 			+size(30px)
 		&:focus, &:hover
-			&:before, &::after
+			&:before
 				opacity: 1
 		&.slick-prev
-			left: 50%
-			margin-left: -260px
-			@media(max-width: 1050px)
-				margin-left: -140px
+			left: 0
+			margin-left: auto
 		&.slick-next
-			right: 50%
-			margin-top: 16px
-			margin-right: -260px
-			@media(max-width: 1050px)
-				margin-right: -140px
-			&::after
-				top: -19px
-			@media(max-width: 580px)
-				&::before
-					top: -6px
-		&::before, &::after
-			position: relative
-			+size(25px 3px)
-			content: ''
-			background: $white
-			display: block
-			+transform(rotate(-45deg))
-			@media(max-width: 580px)
-				width: 15px
-		&::after
-			top: 13px
-			+transform(rotate(45deg))
-			@media(max-width: 580px)
-				top: 7px
+			right: 0
+			margin-right: autp
+			&::before
+				+transform(rotate(180deg))
 		&.slick-disabled
 			cursor: default
 			&::before, &::after
 				display: none
 	.slick-dots
 		position: relative
+		bottom: 0
 		li
 			+size(auto)
 			+ li
 				margin-left: 10px
 			&.slick-active
 				button
-					background: $gold
+					background: $white
 			button
 				+padding(0)
-				+size(18px)
+				+size(10px)
 				background: transparent
-				border: 2px solid $gold
+				border: 2px solid $white
 				display: block
 				border-radius: 100%
 				&::before
@@ -237,19 +222,43 @@
 	.button
 		a
 			font-size: 18px
-			display: inline-block
+			display: block
 			background: #46535F
 			border-radius: 3px
 			color: $white
 			text-transform: uppercase
 			font-family: $font-Semi
 			+padding(9px 30px)
+			letter-spacing: 1px
+			position: relative
 			@extend %transition
+		&-fake
+			a
+				&::before, &::after
+					content: ''
+					background-repeat: no-repeat
+					background-position: center center
+					+position(absolute, 50% null null null)
+					+transform(translateY(-50%))
+				&::before
+					+size(18.76px 25px)
+					background-image: url('https://nespressotrade.com.br/shared_res/always-2021/icon-bag-full.png')
+					left: 10px
+				&::after
+					+size(15px)
+					background-image: url('https://nespressotrade.com.br/shared_res/always-2021/icon-plus.png')
+					right: 9.5px
 			&:hover
 				background: $black
+		&-dark-green
+			a
+				background: $green
 		&-green
 			a
-				background: #72A689
+				background: #5AC619
+		&-gold
+			a
+				background: #AD9162
 		&-center
 			text-align: center
 	.title
@@ -359,3 +368,16 @@
 		+transform(rotate(0))
 	100%
 		+transform(rotate(360deg))
+.custom-select
+	+appearance(none)
+	display: block
+	font-size: 18px
+	color: $white
+	background: $green
+	border: 1px solid $white
+	border-radius: 3px
+	width: 100%
+	text-align-last: center
+	+padding(9px null 10px)
+	font-family: $font-Bold
+	+margin(9px null)
