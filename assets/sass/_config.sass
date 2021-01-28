@@ -105,7 +105,7 @@
 	position: relative
 	overflow-x: hidden
 	color: $black
-	@media(max-width: 768px)
+	@media(max-width: 992px)
 		font-size: 26px
 	.gridD
 		max-width: 1050px
@@ -125,9 +125,9 @@
 		line-height: 48px
 		font-family: $font-Bold
 		color: black
-		@media(max-width: 1050px)
-			font-size: 30px
-			line-height: 33px
+		@media(max-width: 992px)
+			font-size: 22px
+			line-height: 30px
 	p
 		font-size: 18px
 		line-height: 24px
@@ -138,13 +138,16 @@
 		+size(45px)
 		z-index: 1
 		top: 200px
+		@media(max-width: 992px)
+			+size(30px)
+			top: 279px
 		&::before
 			content: ''
 			opacity: .75
 			background: url('https://nespressotrade.com.br/shared_res/always-2021/icon-arrow.png') center center no-repeat
 			background-size: 100% auto
 			display: block
-			+size(44px)
+			+size(100%)
 		@media(max-width: 580px)
 			+size(30px)
 		&:focus, &:hover
@@ -232,6 +235,8 @@
 			letter-spacing: 1px
 			position: relative
 			@extend %transition
+			@media(max-width: 992px)
+				+padding(5px null)
 		&-fake
 			a
 				&::before, &::after
@@ -255,7 +260,7 @@
 				background: $green
 		&-green
 			a
-				background: #5AC619
+				background: #3d8705
 		&-gold
 			a
 				background: #AD9162
@@ -381,3 +386,4 @@
 	+padding(9px null 10px)
 	font-family: $font-Bold
 	+margin(9px null)
+	text-transform: uppercase
