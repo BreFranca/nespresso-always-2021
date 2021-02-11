@@ -1,6 +1,40 @@
 @import 'config'
 
 #bodyFake
+	#video
+		height: 670px
+		background-color: $black
+		background-size: cover
+		background-position: center center
+		+display(flex)
+		+align-items(center)
+		+justify-content(center)
+		+flex-direction(column)
+		position: relative
+		background: $gold
+		@media(max-width: 996px)
+			height: 350px
+		&::before
+			content: ''
+			+position(absolute, 0)
+			background: rgba(0, 0, 0, .3)
+		.gridD
+			position: relative
+		img
+			+margin(null auto)
+			display: block
+			margin-bottom: 42px
+			@media(max-width: 580px)
+				max-width: 75px
+				margin-bottom: 20px
+		h3
+			font-size: 24px
+			line-height: 36px
+			text-transform: uppercase
+			color: $white
+			@media(max-width: 580px)
+				font-size: 14px
+				line-height: 26px
 	.mobile
 		display: none
 		@media(max-width: 992px)
@@ -22,7 +56,7 @@
 		.infos
 			+display(flex)
 			+justify-content(center)
-			margin-bottom: 7px
+			+margin(null 0 7px)
 			@media(max-width: 992px)
 				display: block
 				margin-bottom: 25px

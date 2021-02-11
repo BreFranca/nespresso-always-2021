@@ -1,0 +1,878 @@
+<div id="bodyFake">
+    <p>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <style>@font-face{font-family:"NespressoLucas-Light";src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.eot");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.eot?#iefix") format("embedded-opentype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.svg#NespressoLucas-Light") format("svg");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.ttf") format("truetype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Light.woff") format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"NespressoLucas-Regular";src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.eot");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.eot?#iefix") format("embedded-opentype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.svg#NespressoLucas-Regular") format("svg");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.ttf") format("truetype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Regular.woff") format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"NespressoLucas-SemiBd";src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.eot");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.eot?#iefix") format("embedded-opentype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.svg#NespressoLucas-SemiBd") format("svg");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.ttf") format("truetype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-SemiBd.woff") format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"NespressoLucas-Medium";src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.eot");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.eot?#iefix") format("embedded-opentype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.svg#NespressoLucas-Medium") format("svg");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.ttf") format("truetype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Medium.woff") format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"NespressoLucas-Bold";src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.eot");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.eot?#iefix") format("embedded-opentype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.svg#NespressoLucas-Bold") format("svg");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.ttf") format("truetype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-Bold.woff") format("woff");font-weight:normal;font-style:normal}@font-face{font-family:"NespressoLucas-XtraBd";src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.eot");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.eot?#iefix") format("embedded-opentype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.svg#NespressoLucas-XtraBd") format("svg");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.ttf") format("truetype");src:url("https://www.nespresso.com/shared_res/agility/commons/fonts/NespressoLucas-XtraBd.woff") format("woff");font-weight:normal;font-style:normal}#bodyFake #questions .accordions-questions .accordion::before,#bodyFake .cta button,#bodyFake .cta a,#bodyFake .button a{-webkit-transition:all .4s linear;-moz-transition:all .4s linear;transition:all .4s linear}*{margin:0;padding:0;text-decoration:none;outline:none}#responsive-overlay{display:none}.ResponsiveContainer{margin-bottom:0}#bodyFake{font-family:"NespressoLucas-Light",sans-serif;font-weight:300;font-size:20px;line-height:1.2em;background:#fff;position:relative;overflow-x:hidden;color:#000}@media(max-width: 992px){#bodyFake{font-size:26px}}#bodyFake .gridD{max-width:1050px;margin-right:auto;margin-left:auto}#bodyFake h1,#bodyFake h2,#bodyFake h3,#bodyFake h4,#bodyFake h5,#bodyFake h6,#bodyFake p,#bodyFake strong,#bodyFake ul,#bodyFake li,#bodyFake a{margin:0;padding:0}#bodyFake button::not(".QuantitySelectorCustomField__button-ok"){padding:0;margin:0}#bodyFake h1{font-size:48px;line-height:64px;font-family:"NespressoLucas-Bold",sans-serif}#bodyFake h2{font-size:38px;line-height:48px;font-family:"NespressoLucas-Bold",sans-serif;color:#000}@media(max-width: 992px){#bodyFake h2{font-size:22px;line-height:30px}}#bodyFake p{font-size:18px;line-height:24px}#bodyFake strong{font-family:"NespressoLucas-Bold",sans-serif;font-weight:400}#bodyFake .slick-arrow{height:45px;width:45px;z-index:1;top:200px}@media(max-width: 992px){#bodyFake .slick-arrow{height:30px;width:30px;top:279px}}#bodyFake .slick-arrow::before{content:"";opacity:.75;background:url("https://nespressotrade.com.br/shared_res/always-2021/icon-arrow.png") center center no-repeat;background-size:100% auto;display:block;height:100%;width:100%}@media(max-width: 580px){#bodyFake .slick-arrow{height:30px;width:30px}}#bodyFake .slick-arrow:focus:before,#bodyFake .slick-arrow:hover:before{opacity:1}#bodyFake .slick-arrow.slick-prev{left:0;margin-left:auto}#bodyFake .slick-arrow.slick-next{right:0;margin-right:autp}#bodyFake .slick-arrow.slick-next::before{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}#bodyFake .slick-arrow.slick-disabled{cursor:default}#bodyFake .slick-arrow.slick-disabled::before,#bodyFake .slick-arrow.slick-disabled::after{display:none}#bodyFake .slick-dots{position:relative;bottom:0}#bodyFake .slick-dots li{height:auto;width:auto}#bodyFake .slick-dots li+li{margin-left:10px}#bodyFake .slick-dots li.slick-active button{background:#fff}#bodyFake .slick-dots li button{padding:0;height:10px;width:10px;background:transparent;border:2px solid #fff;display:block;border-radius:100%}#bodyFake .slick-dots li button::before{content:none}#bodyFake .icon-circle{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;font-size:22px;line-height:1em;color:#fff;background:#8f7247;height:30px;width:30px;border-radius:50%;font-family:"NespressoLucas-Bold",sans-serif}#bodyFake .icon-button{border:1.5px solid #46535f;height:30px;width:30px;border-radius:50%;position:absolute;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column;cursor:pointer}#bodyFake .icon-button span{height:2px;width:15px;background:#46535f;display:block;position:relative}#bodyFake .icon-button span+span{margin-top:3px}#bodyFake .icon-button-close span:first-child{top:5px;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}#bodyFake .icon-button-close span:nth-child(2){opacity:0}#bodyFake .icon-button-close span:last-child{bottom:5px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}#bodyFake .button a{font-size:18px;display:block;background:#46535f;border-radius:3px;color:#fff;text-transform:uppercase;font-family:"NespressoLucas-SemiBd",sans-serif;padding:9px 30px;letter-spacing:1px;position:relative}@media(max-width: 992px){#bodyFake .button a{padding-top:5px;padding-bottom:5px;font-size:15px}}#bodyFake .button-fake a::before,#bodyFake .button-fake a::after{content:"";background-repeat:no-repeat;background-position:center center;position:absolute;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}#bodyFake .button-fake a::before{height:25px;width:18.76px;background-image:url("https://nespressotrade.com.br/shared_res/always-2021/icon-bag-full.png");left:10px}#bodyFake .button-fake a::after{height:15px;width:15px;background-image:url("https://nespressotrade.com.br/shared_res/always-2021/icon-plus.png");right:9.5px}#bodyFake .button-fake:hover{background:#000}#bodyFake .button-dark-green a{background:#005454}#bodyFake .button-green a{background:#3d8705}#bodyFake .button-gold a{background:#ad9162}#bodyFake .button-center{text-align:center}@media(max-width: 992px){#bodyFake .title{max-width:320px;margin-right:auto;margin-left:auto}}@media(max-width: 350px){#bodyFake .title{max-width:300px}}#bodyFake .title img{max-width:250px;display:block;margin-right:auto;margin-bottom:30px;margin-left:auto}#bodyFake .title span{height:60px;width:60px;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;font-size:30px;font-family:"NespressoLucas-Regular",sans-serif;margin-right:auto;margin-bottom:30px;margin-left:auto;color:#b3785a;border-radius:100%;border:2px solid #b3785a}#bodyFake .title h2{font-size:30px;font-family:"NespressoLucas-SemiBd",sans-serif;text-align:center;text-transform:uppercase;line-height:1.1em;letter-spacing:1.8px;padding-bottom:20px}@media(max-width: 992px){#bodyFake .title h2{font-size:21px;padding-bottom:10px}}@media(max-width: 350px){#bodyFake .title h2{font-size:18px}}#bodyFake .title h2 span{font-family:"NespressoLucas-Regular",sans-serif}#bodyFake .title h3{font-size:24px;line-height:1.1em;text-align:center;font-family:"NespressoLucas-Regular",sans-serif;font-weight:400}@media(max-width: 992px){#bodyFake .title h3{font-size:21px}}#bodyFake .title p{font-size:15px;text-align:center;line-height:1.1em}#bodyFake .cta button,#bodyFake .cta a{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;border:none;box-shadow:none;padding:12px 30px 10px;font-family:"NespressoLucas-Bold",sans-serif;text-transform:uppercase;color:#fff;background:#b3785a;display:inline-block;cursor:pointer;border-radius:3px;font-size:18px;line-height:21px}#bodyFake .cta button:hover,#bodyFake .cta a:hover{background:#f4efef;color:#b3785a}#bodyFake .cta-center{text-align:center}#bodyFake .custom-add-to-bag{position:relative}#bodyFake .custom-add-to-bag .QuantitySelector{position:absolute;top:60px;right:180px;left:auto;-webkit-transform:scale(1.3);-moz-transform:scale(1.3);-ms-transform:scale(1.3);-o-transform:scale(1.3);transform:scale(1.3);z-index:2002}#bodyFake .custom-add-to-bag .custom-button-add{height:30px;width:30px;border-radius:3px;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;background:#b3785a;cursor:pointer;box-shadow:none;border:none}#bodyFake .custom-add-to-bag .custom-button-add .quantityValue{color:#fff;font-family:"NespressoLucas-SemiBd",sans-serif}#bodyFake .custom-add-to-bag .custom-button-add .quantityValue img{display:block}#loader{border:8px solid #f4efef;border-radius:50%;border-top:8px solid #b3785a;height:50px;width:50px;-webkit-animation:spin 2s linear infinite;-moz-animation:spin 2s linear infinite;animation:spin 2s linear infinite;display:none}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(360deg)}}@-moz-keyframes spin{0%{-moz-transform:rotate(0)}100%{-moz-transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-ms-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}}.custom-select{-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;-o-appearance:none;appearance:none;display:block;font-size:18px;color:#fff;background:#005454;border:1px solid #fff;border-radius:3px;width:100%;text-align-last:center;padding-top:9px;padding-bottom:10px;font-family:"NespressoLucas-Bold",sans-serif;margin-top:9px;margin-bottom:9px;text-transform:uppercase}@media(max-width: 992px){.custom-select{font-size:15px}}#bodyFake #video{height:670px;background-color:#000;background-size:cover;background-position:center center;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;-webkit-box-direction:normal;-moz-box-direction:normal;box-direction:normal;-webkit-flex-direction:column;-moz-flex-direction:column;flex-direction:column;-ms-flex-direction:column;position:relative;background:#b3785a}@media(max-width: 996px){#bodyFake #video{height:350px}}#bodyFake #video::before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.3)}#bodyFake #video .gridD{position:relative}#bodyFake #video img{margin-right:auto;margin-left:auto;display:block;margin-bottom:42px}@media(max-width: 580px){#bodyFake #video img{max-width:75px;margin-bottom:20px}}#bodyFake #video h3{font-size:24px;line-height:36px;text-transform:uppercase;color:#fff}@media(max-width: 580px){#bodyFake #video h3{font-size:14px;line-height:26px}}#bodyFake .mobile{display:none}@media(max-width: 992px){#bodyFake .mobile{display:block}}#bodyFake .desktop{display:block}@media(max-width: 992px){#bodyFake .desktop{display:none}}#bodyFake #banner{background:#005454}#bodyFake #banner img{max-height:100vh;width:auto;margin-right:auto;margin-left:auto}#bodyFake #triple-info{padding-top:113px;padding-bottom:42px}@media(max-width: 992px){#bodyFake #triple-info{padding-top:34px;padding-bottom:17px}}#bodyFake #triple-info .infos{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;margin-right:0;margin-bottom:7px;margin-left:0}@media(max-width: 992px){#bodyFake #triple-info .infos{display:block;margin-bottom:25px}}#bodyFake #triple-info .infos .info{text-align:center}#bodyFake #triple-info .infos .info img{display:block;margin-right:auto;margin-bottom:52px;margin-left:auto;max-height:57px}@media(max-width: 992px){#bodyFake #triple-info .infos .info img{margin-bottom:17px}}#bodyFake #triple-info .infos .info p{font-size:22px;line-height:1.2em;max-width:282px}@media(max-width: 992px){#bodyFake #triple-info .infos .info p{margin-right:auto;margin-left:auto;font-size:20px}}#bodyFake #triple-info .infos .info p a{color:inherit;text-decoration:underline}#bodyFake #triple-info .infos .info:nth-child(2){margin-right:46px;margin-left:64px}@media(max-width: 992px){#bodyFake #triple-info .infos .info:nth-child(2){margin:27px auto 18px}}#bodyFake #triple-info .infos .info:last-child p{max-width:312px}#bodyFake #triple-info .info-small{max-width:545px;margin-right:auto;margin-left:auto}#bodyFake #triple-info .info-small p{font-size:12px;line-height:1.2em;text-align:center}#bodyFake #rescue{background:url("https://nespressotrade.com.br/shared_res/always-2021/bg-resgatar.png") center top no-repeat #d4874e;padding-top:133.7px;padding-bottom:18px}@media(max-width: 992px){#bodyFake #rescue{padding-top:35px;padding-bottom:25px}}#bodyFake #rescue h2{text-align:center;max-width:692px;margin-right:auto;margin-bottom:142px;margin-left:auto;color:#fff}@media(max-width: 992px){#bodyFake #rescue h2{max-width:275px;margin-bottom:32px}}#bodyFake #rescue .accordions{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center;margin-bottom:113px}@media(max-width: 992px){#bodyFake #rescue .accordions{display:block;text-align:center;margin-bottom:21px}}#bodyFake #rescue .accordions .accordion{padding-top:57px;padding-bottom:75px;width:344px;min-width:344px;max-width:344px;text-align:center;display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-moz-box-align:center;box-align:center;-webkit-align-items:center;-moz-align-items:center;-ms-align-items:center;-o-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-moz-box-pack:center;box-pack:center;-webkit-justify-content:center;-moz-justify-content:center;-ms-justify-content:center;-o-justify-content:center;justify-content:center;-ms-flex-pack:center}@media(max-width: 992px){#bodyFake #rescue .accordions .accordion{margin:auto;padding-top:21px;padding-bottom:18px;width:auto;min-width:auto;max-width:90%;display:block}}#bodyFake #rescue .accordions .accordion+.accordion{border-left:1px solid #fff}@media(max-width: 992px){#bodyFake #rescue .accordions .accordion+.accordion{border-left:none;border-top:1px solid #fff}}#bodyFake #rescue .accordions .accordion img{margin-bottom:40px;display:block;margin-right:auto;margin-left:auto}#bodyFake #rescue .accordions .accordion h4{font-size:21px;color:#fff;text-transform:uppercase;font-family:"NespressoLucas-SemiBd",sans-serif;text-align:center}#bodyFake #rescue .accordions .accordion a{display:inline-block;color:#fff}#bodyFake #rescue .accordions .accordion a img{margin:0}#bodyFake #rescue .accordions .accordion:nth-child(2) h4{min-width:220px;max-width:220px;margin-right:auto;margin-left:auto}#bodyFake #rescue .accordions .accordion-title a{margin-top:38px}#bodyFake #rescue .accordions .accordion-active{border:none !important;width:auto;max-width:none}#bodyFake #rescue .accordions .accordion-active .accordion-title{min-width:344px}@meda (max-width: 992px){#bodyFake #rescue .accordions .accordion-active .accordion-title{min-width:220px}}#bodyFake #rescue .accordions .accordion-content{display:none;border-left:1px solid #fff;padding-left:83px;min-width:556px;text-align:left}@media(max-width: 992px){#bodyFake #rescue .accordions .accordion-content{text-align:center;min-width:auto;max-width:95%;padding-left:0;padding-top:30px}}#bodyFake #rescue .accordions .accordion-content .button{margin-top:35px}#bodyFake #rescue .accordions .accordion-content p{font-size:18px;color:#fff}#bodyFake #rescue .accordions .accordion-content p+p{margin-top:20px}#bodyFake #rescue .accordions .accordion-content p a{text-decoration:underline}@media(max-width: 992px){#bodyFake #rescue .info-small{max-width:278px;margin-right:auto;margin-left:auto}}#bodyFake #rescue .info-small p{font-size:12px;line-height:1.1em;color:#fff;text-align:center}#bodyFake #machines{background:#005454;padding-top:83px;padding-bottom:23.5px}@media(max-width: 992px){#bodyFake #machines{padding-top:32px;padding-bottom:39px}}#bodyFake #machines h2{color:#fff;font-weight:400;text-align:center}@media(max-width: 992px){#bodyFake #machines h2{max-width:316px;margin-right:auto;margin-left:auto}}#bodyFake #machines h2 span{font-family:"NespressoLucas-Regular",sans-serif}#bodyFake #machines .slick-machines{margin-bottom:0;max-width:943px;margin-right:auto;margin-left:auto}@media(max-width: 992px){#bodyFake #machines .slick-machines{max-width:344px}}#bodyFake #machines .slick-machines .slick-dots{margin-top:15px}@media(max-width: 375px){#bodyFake #machines .slick-machines{max-width:300px}}#bodyFake #machines .machine{text-align:center}#bodyFake #machines .machine-image img{display:block;margin-right:auto;margin-left:auto;max-width:100%;height:auto}#bodyFake #machines .machine-name{margin-bottom:33px}@media(max-width: 992px){#bodyFake #machines .machine-name{margin-bottom:0}}#bodyFake #machines .machine-name h3{color:#fff;text-transform:uppercase;font-size:28px}@media(max-width: 992px){#bodyFake #machines .machine-name h3{font-size:18px}}#bodyFake #machines .machine-price{margin-bottom:37px}#bodyFake #machines .machine-price p{font-size:22px;color:#ffdcb0;font-family:"NespressoLucas-Medium",sans-serif}@media(max-width: 992px){#bodyFake #machines .machine-price p{font-size:18px}}#bodyFake #machines .machine-price p span{color:#fff}#bodyFake #machines .machine-price p+p{margin-top:9px}#bodyFake #machines .machine-description{max-width:594px;margin-right:auto;margin-bottom:10px;margin-left:auto}@media(max-width: 769px){#bodyFake #machines .machine-description{max-width:345px}}#bodyFake #machines .machine-description p{color:#fff;font-size:18px;line-height:1.2em}@media(max-width: 992px){#bodyFake #machines .machine-description p{font-size:15px}}#bodyFake #machines .machine-buttons{max-width:340px;margin-right:auto;margin-left:auto}@media(max-width: 992px){#bodyFake #machines .machine-buttons{max-width:290px}}#bodyFake #machines .machine-buttons .add-to-bag{display:none}#bodyFake #machines .machine-buttons .add-to-bag .AddToBagButton__container{width:100%}#bodyFake #machines .machine-buttons .add-to-bag .AddToBagButton__container>div{width:100%}#bodyFake #machines .machine-buttons .add-to-bag .AddToBagButton__container>div button{width:100%}#bodyFake #machines .machine-citiz .machine-image{margin-bottom:-62px}#bodyFake #machines .machine-inissia .machine-image{margin-top:54px;margin-bottom:-37px}#bodyFake #machines .machine-essenza-mini .machine-image{margin-top:10px;margin-bottom:-18px}#bodyFake #machines .machine-essenza-mini-aeroccino .machine-image{margin-top:6px;margin-bottom:-22px}#bodyFake #machines .machine-essenza-plus .machine-image{margin-top:49.5px;margin-bottom:-64px}@media(max-width: 992px){#bodyFake #machines .machine-essenza-plus .machine-image{margin-bottom:-55px}}#bodyFake #machines .machine-pixie .machine-image{margin-top:55px;margin-bottom:-109px}@media(max-width: 992px){#bodyFake #machines .machine-pixie .machine-image{margin-bottom:-80px}}#bodyFake #machines .machine-citiz-aeroccino .machine-image{margin-top:48.4px;margin-bottom:-14px}#bodyFake #machines .machine-expert .machine-image{margin-top:72.8px;margin-bottom:3.5px}#bodyFake #machines .machine-expert-aeroccino .machine-image{margin-bottom:-13px}#bodyFake #machines .machine-gran-lattissima .machine-image{margin-top:-28px;margin-bottom:-115px}@media(max-width: 992px){#bodyFake #machines .machine-gran-lattissima .machine-image{margin-bottom:-70px}}#bodyFake #machines .machine-lattissima-touch .machine-image{margin-top:26px;margin-bottom:-70px}@media(max-width: 992px){#bodyFake #machines .machine-lattissima-touch .machine-image{margin-bottom:-50px}}#bodyFake #machines .machine-creatista .machine-image{margin-top:13.5px;margin-bottom:-78px}@media(max-width: 992px){#bodyFake #machines .machine-creatista .machine-image{margin-bottom:-60px}}#bodyFake #questions .gridD{padding-top:102px;padding-bottom:57px;display:block;border-bottom:1px solid #cbcbcb}@media(max-width: 992px){#bodyFake #questions .gridD{max-width:95%}}#bodyFake #questions h2{text-transform:uppercase}@media(max-width: 992px){#bodyFake #questions h2{text-align:center}}#bodyFake #questions .accordions-questions{margin-top:62px;margin-bottom:64px}#bodyFake #questions .accordions-questions .accordion{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex}#bodyFake #questions .accordions-questions .accordion+.accordion{margin-top:40px}#bodyFake #questions .accordions-questions .accordion::before{content:"";height:30px;width:30px;display:inline-block;background:url("https://nespressotrade.com.br/shared_res/always-2021/icon-arrow-green.png") center center no-repeat;background-size:cover;min-width:30px;margin-right:30px;margin-top:-7.5px;-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}@media(max-width: 992px){#bodyFake #questions .accordions-questions .accordion::before{min-width:20px;height:20px;width:20px;margin-top:6.5px;margin-right:15px}}#bodyFake #questions .accordions-questions .accordion-title{cursor:pointer}#bodyFake #questions .accordions-questions .accordion-title h5{font-size:18px;font-family:"NespressoLucas-Bold",sans-serif}@media(max-width: 992px){#bodyFake #questions .accordions-questions .accordion-title h5{font-size:16px;line-height:1.2em}}#bodyFake #questions .accordions-questions .accordion-content{display:none}#bodyFake #questions .accordions-questions .accordion-content p{font-size:18px;text-align:left}@media(max-width: 992px){#bodyFake #questions .accordions-questions .accordion-content p{font-size:16px}}#bodyFake #questions .accordions-questions .accordion-content p a{color:inherit;text-decoration:underline}#bodyFake #questions .accordions-questions .accordion-active::before{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0)}#bodyFake #questions .info{max-width:552px;margin-right:auto;margin-bottom:45px;margin-left:auto}#bodyFake #questions .info p{font-size:18px;color:#005454;text-align:center;font-family:"NespressoLucas-Bold",sans-serif}@media(max-width: 992px){#bodyFake #questions .info p{font-size:16px}}#bodyFake #questions .button{text-align-last:center}#bodyFake #questions .button a{text-align:center}#bodyFake #questions .button span{margin-right:10px}#bodyFake #questions #terms{margin-top:40px;display:none}#bodyFake #questions #terms p{font-size:14px;line-height:1.3em}#bodyFake #questions #terms p+p{margin-top:15px}#bodyFake #info-bottom{padding-top:43px;padding-bottom:51px}#bodyFake #info-bottom p{font-size:18px;font-family:"NespressoLucas-Light",sans-serif;text-align:center;color:#838383}#bodyFake #modal-capsules{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1;display:none}#bodyFake #modal-capsules .modal-content{position:absolute;top:50%;right:0;left:0;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);background:#d4874e}#bodyFake #modal-capsules .modal-content .gridD{padding-top:92px;padding-bottom:92px;position:relative;max-width:942.5px}#bodyFake #modal-capsules .modal-content .modal-close{position:absolute;top:47px;right:40px;cursor:pointer}#bodyFake #modal-capsules .modal-content .slick-capsules{max-width:673px;margin-right:auto;margin-left:auto}@media(max-width: 992px){#bodyFake #modal-capsules .modal-content .slick-capsules{max-width:300px}}#bodyFake #modal-capsules .modal-content .slick-capsules .slick-arrow{top:109px}#bodyFake #modal-capsules .modal-content .slick-capsules .slick-arrow.slick-prev{left:-96px}@media(max-width: 992px){#bodyFake #modal-capsules .modal-content .slick-capsules .slick-arrow.slick-prev{left:0}}#bodyFake #modal-capsules .modal-content .slick-capsules .slick-arrow.slick-next{right:-96px}@media(max-width: 992px){#bodyFake #modal-capsules .modal-content .slick-capsules .slick-arrow.slick-next{right:0}}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule{text-align:center}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-image{margin-bottom:20px}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-image img{display:block;margin-right:auto;margin-left:auto}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-name{margin-bottom:10px}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-name h4{font-size:18px;color:#fff;text-transform:uppercase;font-family:"NespressoLucas-SemiBd",sans-serif;font-weight:400}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-description p{font-size:18px;color:#fff}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-intensity{margin-bottom:42px}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-intensity p{font-size:12px;color:#fff;font-family:"NespressoLucas-Bold",sans-serif}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-intensity .intensity-line{display:-webkit-box;display:-moz-box;display:box;display:-webkit-flex;display:-moz-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-moz-box-pack:justify;box-pack:justify;-webkit-justify-content:space-between;-moz-justify-content:space-between;-ms-justify-content:space-between;-o-justify-content:space-between;justify-content:space-between;-ms-flex-pack:justify;border-top:2px solid #fff;max-width:180px;margin-right:auto;margin-left:auto}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-intensity .intensity-line li{position:relative;display:block;height:8px;width:2px;background:#fff;font-size:12px;color:#fff;font-family:"NespressoLucas-Bold",sans-serif}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-intensity .intensity-line li span{position:absolute;top:100%;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%)}#bodyFake #modal-capsules .modal-content .slick-capsules .capsule-size p{font-size:15px;color:#fff}/*# sourceMappingURL=style.css.map */</style>
+    </p>
+
+    <section id="banner">
+        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/info-banner.png?v=1" alt="" class="desktop">
+        <img src="https://nespressotrade.com.br/shared_res/always-2021/mobile/info-banner.png" alt="" class="mobile">
+    </section>
+
+    <section id="triple-info">
+        <div class="gridD">
+            <div class="infos">
+                <div class="info">
+                    <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-machine.png" alt="">
+                    <p>Buy your coffee machine from 02/01 to 09/30/2021.</p>
+                </div>
+                <div class="info">
+                    <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-gift.png" alt="">
+                    <p>Get an 80-capsule pack with our selection of best-selling coffees* + an exclusive card to complete your Subscription.</p>
+                </div>
+                <div class="info">
+                    <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-bag.png" alt="">
+                    <p>Sign up at our exclusive Subscription website: <a href="https://www.nespresso.com/br/pt/ativar-assinatura">www.nespresso.com/br/pt/ativar-assinatura</a>, from 02/01/2021 to 09/30/2021. Enjoy the 1st and 6th month for free.</p>
+                </div>
+            </div>
+            <div class="info-small">
+                <p>*Selected coffees: Ristretto Italiano (20 CAPSULES), Linizio Lungo (10 CAPSULES), Firenze Arpeggio (20 CAPSULES), Roma (10 CAPSULES), Genova Livanto (10 CAPSULES), and Volluto (10 CAPSULES).</p>
+                <p>Nespresso Subscription Card, with the benefit of 1st and 6th month of free subscription</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rescue">
+        <div class="gridD">
+            <h2>LEARN HOW TO REDEEM YOUR COFFEE SELECTION AND MEMBERSHIP CARD</h2>
+            <div class="accordions">
+                <div class="accordion" data-accordion="01">
+                    <div class="accordion-title">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-phone.png" alt="">
+                        <h4>PURCHASED THROUGH
+                            <br />NESPRESSO’S WEBSITE
+                            <br />OR APP?</h4>
+                        <a class="accordion-open" data-accordion="01" href="javascript:void(0)"><img src="https://nespressotrade.com.br/shared_res/always-2021/icon-plus-green.png" alt=""><img style="display: none;" src="https://nespressotrade.com.br/shared_res/always-2021/icon-minus.png" alt=""></a>
+                    </div>
+                    <div class="accordion-content">
+                        <p>To receive your pack with 80 pre-selected capsules, all you have to do is wait for your machine to be delivered. Your coffee capsules + Subscription card will arrive with your new Nespresso machine.</p>
+                        
+                        <p>1. Buy your machine through the website.</p>
+                        
+                        <p>2. Wait for the delivery of your 80 pre-selected capsules + Subscription card, along with your coffee machine, at your chosen address.</p>
+                        
+                        <p>3. After buying your machine, you may activate your Subscription any time between 02/01 to 10/30/2021, enjoy the 1st and 6th month for free, through the website: www.nespresso.com/br/pt/ativar-assinatura.</p>
+                    </div>
+                </div>
+                <div class="accordion" data-accordion="02">
+                    <div class="accordion-title">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-bag-1.png" alt="">
+                        <h4>PURCHASED AT
+                            <br />PARTNER STORES*?</h4>
+                        <a class="accordion-open" data-accordion="02" href="javascript:void(0)"><img src="https://nespressotrade.com.br/shared_res/always-2021/icon-plus-green.png" alt=""><img style="display: none;" src="https://nespressotrade.com.br/shared_res/always-2021/icon-minus.png" alt=""></a>
+                    </div>
+                    <div class="accordion-content">
+                        <p>To receive your pack with 80 pre-selected capsules and Subscription card, go to a Nespresso Boutique with your purchase information (receipt and machine’s serial number) and instantly redeem your coffee capsules and Subscription card. Should you prefer, register this information online and receive your pack and card at home.</p>
+
+                        <p>1. To redeem online, register the information (receipt and machine’s serial number) at nespressopresente.com.br from 02/01/2021 to 10/15/2021.</p>
+                        
+                        <p>2. Wait up to 3 business days for an email confirming your coffee pack and Subscription card have been shipped.</p>
+                        
+                        <p>3. Receive your coffee capsules and Subscription card at your chosen address. Please check our Delivery Time.</p>
+                        
+                        <p>4. You may redeem your Nespresso Subscription, with the 1st and 6th month for free, until 10/30/2021 at the website: <a href="https://www.nespresso.com/br/pt/ativar-assinatura">www.nespresso.com/br/pt/ativar-assinatura</a>.</p>
+                        <div class="button button-dark-green">
+                            <a href="https://nespressopresente.com.br">REQUEST ONLINE GIFTS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" data-accordion="03">
+                    <div class="accordion-title">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-boutique.png" alt="">
+                        <h4>PURCHASED AT 
+                            <br />A BOUTIQUE
+                            <br />OR BY PHONE?</h4>
+                        <a class="accordion-open" data-accordion="03" href="javascript:void(0)"><img src="https://nespressotrade.com.br/shared_res/always-2021/icon-plus-green.png" alt=""><img style="display: none;" src="https://nespressotrade.com.br/shared_res/always-2021/icon-minus.png" alt=""></a>
+                    </div>
+                    <div class="accordion-content">
+                        <p>When purchasing at a Boutique, you instantly receive your pack with </p>
+
+                        <p>80 pre-selected capsules and Subscription card. When purchasing by phone, your pack and Subscription card are delivered along with your machine.</p>
+                        
+                        <p>1. Buy your coffee machine at a Boutique and instantly take home your pack and Subscription card! After the purchase, you may activate your Nespresso Subscription from 02/01/2021 to 10/30/2021, enjoy the 1st and 6th month for free.</p>
+                        
+                        <p>2. When buying your machine by Phone (0800 7777 737), all you have to do is wait for the delivery of your 80 pre-selected capsules and Subscription card, along with your coffee machine, at your chosen address. After the purchase, you may activate your Nespresso Subscription from 02/01/2021 to 10/30/2021, and enjoy the 1st and 6th month for free.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-small">
+                <p>*Partner Stores: These are authorized retailers who sell Nespresso coffee machines at points of sale or on websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="machines">
+        <div class="gridD">
+            <h2>SECURE THIS OFFER AND YOUR <span>NESPRESSO</span> GIFTS
+                <span>PICK YOUR NEW MACHINE NOW</span></h2>
+            <div class="slick-machines">
+                <div class="machine machine-inissia">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/inissia.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>INISSIA</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 559,00</p>
+                        <p><span>Or 10x BRL 55,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>Awarded for its compact design, Inissia is here to ensure the convenience
+                            of your coffee cup, while remaining discreetly out of sight.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Black 110V</option>
+                            <option value="btn-02">Black 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="D40-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="D40-BR3-BK-NE4" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-essenza-mini">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/essenza-mini.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Essenza mini</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 599,00</p>
+                        <p><span>Or 10x BRL 59,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>Nespresso’s smallest coffee machine: in a compact and silent design, it is perfect for those who just want a cozy and minimalist coffee corner.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Black 110V</option>
+                            <option value="btn-02">Black 220V</option>
+                            <option value="btn-03">White 110V</option>
+                            <option value="btn-04">White 220V</option>
+                            <option value="btn-05">Red 110V</option>
+                            <option value="btn-06">Red 220V</option>
+                            <option value="btn-07">Matt 110V</option>
+                            <option value="btn-08">Matt 220V</option>
+                            <option value="btn-09">Black Matt 110V</option>
+                            <option value="btn-10">Black Matt 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="C30-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="C30-BR3-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="C30-BR-WH-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="C30-BR3-WH-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-05" data-product-id="D30-BR-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-06" data-product-id="D30-BR3-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-07" data-product-id="C30-BR-SI-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-08" data-product-id="C30-BR3-SI-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-09" data-product-id="D30-BR-MB-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-10" data-product-id="D30-BR3-MB-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-essenza-mini-aeroccino">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/essenza-mini-aeroccino.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>ESSENZA MINI & AEROCCINO3</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 929,00</p>
+                        <p><span>Or 10x BRL 92,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>A combo for those who like to keep it simple at coffee time,
+                            includes recipes with super creamy milk.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Black 110V</option>
+                            <option value="btn-02">Black 220V</option>
+                            <option value="btn-03">Red 110V</option>
+                            <option value="btn-04">Red 220V</option>
+                            <option value="btn-05">Black Matt 110V</option>
+                            <option value="btn-06">Black Matt 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="A3NC30-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="A3NC30-BR3-BK-N" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="A3ND30-BR-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="A3ND30-BR3-RE-N" data-button-size="large"></div>
+                        <div class="add-to-bag btn-05" data-product-id="A3ND30-BR-MB-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-06" data-product-id="A3ND30-BR3-MB-N" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-pixie">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/pixie.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Pixie</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 799,00</p>
+                        <p><span>Or 10x BRL 79,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>Give a new meaning to the coffee ritual in your day-to-day life.
+                            Compared to other professional coffee machines, its industrial design
+                            is as resistant as it looks.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Electric Red 110v</option>
+                            <option value="btn-02">Electric Red 220v</option>
+                            <option value="btn-03">Aluminium 110v</option>
+                            <option value="btn-04">Aluminium 220v</option>
+                            <option value="btn-05">Red Carmine 110v</option>
+                            <option value="btn-06">Red Carmine 220v</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="C61-BR-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="C61-BR3-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="D61-BR-AL-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="D61-BR3-AL-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-05" data-product-id="D61-BR-DR-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-06" data-product-id="D61-BR3-DR-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-citiz">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/citiz.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>CITIZ</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 899,00</p>
+                        <p><span>Or 10x BRL 89,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>Style and technology for your coffee breaks. Citiz fits seamlessly into any
+                            room and adds Nespresso’s exceptional crema to your coffee every day.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-02">Silver - 110V</option>
+                            <option value="btn-03">Black - 110V</option>
+                            <option value="btn-04">White - 110V</option>
+                            <option value="btn-08">White - 220V</option>
+                            <option value="btn-06">Silver - 220V</option>
+                            <option value="btn-07">Black - 220V</option>
+                            <option value="btn-01">Cherry Red - 110V</option>
+                            <option value="btn-05">Cherry Red - 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="C113-BR-CR-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="C113-BR-SI-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="D113-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="D113-BR-WH-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-05" data-product-id="C113-BR3-CR-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-06" data-product-id="C113-BR3-SI-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-07" data-product-id="D113-BR3-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-08" data-product-id="D113-BR3-WH-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-citiz-aeroccino">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/citiz-aeroccino.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>CITIZ & AEROCCINO3</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 1.229,00</p>
+                        <p><span>Or 10x BRL 122,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>A combination of cutting-edge technology and vintage-modern design,
+                            with this combo you can prepare warm or cold froth milk for delicious recipes with Nespresso coffee.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-02">Silver - 110V</option>
+                            <option value="btn-05">Silver - 220V</option>
+                            <option value="btn-03">Black - 110V</option>
+                            <option value="btn-06">Black - 220V</option>
+                            <option value="btn-01">Cherry Red - 110V</option>
+                            <option value="btn-04">Cherry Red - 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="A3NC113-BR-CR-N" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="A3NC113-BR-SI-N" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="A3ND113-BR-BK-N" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="A3NC113-BR3-CR" data-button-size="large"></div>
+                        <div class="add-to-bag btn-05" data-product-id="A3NC113-BR3-SI" data-button-size="large"></div>
+                        <div class="add-to-bag btn-06" data-product-id="A3ND113-BR3-BK" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-essenza-plus">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/essenza-plus.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Essenza plus</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 669,00</p>
+                        <p><span>Or 10x BRL 66,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>Enjoy a full and carefree experience with options that will please you
+                            and your whole family. Meet the machine that orders your favorite
+                            Nespresso just by pressing a button.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Black 110V</option>
+                            <option value="btn-02">Black 220V</option>
+                            <option value="btn-03">Red 110V</option>
+                            <option value="btn-04">Red 220V</option>
+                            <option value="btn-05">White 110V</option>
+                            <option value="btn-06">White 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="D45-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="D45-BR3-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="D45-BR-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="D45-BR3-RE-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-05" data-product-id="C45-BR-WH-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-06" data-product-id="C45-BR3-WH-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-expert">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/expert.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Expert</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 1.299,00</p>
+                        <p><span>Or 10x BRL 129,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>Versatile and innovative, your customized coffee every day.
+                            A connected machine for a tasty and expert cup of coffee.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">110V</option>
+                            <option value="btn-02">220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="C80-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="C80-BR3-BK-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-gran-lattissima">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/gran-lattissima.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Gran lattissima</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 2.899,00</p>
+                        <p><span>Or 10x BRL 289,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>For those who are passionate about coffee recipes, Gran Latissima surprises
+                            you and delivers all the smells and flavors of Nespresso capsules into your cup.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Black 110V</option>
+                            <option value="btn-02">Black 220V</option>
+                            <option value="btn-03">White 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="F531-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="F531-BR3-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="F531-BR3-WH-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-lattissima-touch">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/lattissima-touch.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Latissima touch</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 1.849,00</p>
+                        <p><span>Or 10x BRL 184,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>How about enjoying signature cafe recipes in the comfort of your home?
+                            Be surprised by the convenience of making Espressos, Cappuccinos,
+                            and Lattes Macchiatos.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">Black 110V</option>
+                            <option value="btn-02">Black 220V</option>
+                            <option value="btn-03">Silver 110V</option>
+                            <option value="btn-04">Silver 220V</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="F521-BR-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-02" data-product-id="F521-BR3-BK-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-03" data-product-id="F521-BR-SI-NE" data-button-size="large"></div>
+                        <div class="add-to-bag btn-04" data-product-id="F521-BR3-SI-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+                <div class="machine machine-creatista">
+                    <div class="machine-image">
+                        <img src="https://nespressotrade.com.br/shared_res/always-2021/en/creatista.png" alt="">
+                    </div>
+                    <div class="machine-name">
+                        <h3>Creatista</h3>
+                    </div>
+                    <div class="machine-price">
+                        <p>BRL 3.499,00</p>
+                        <p><span>Or 10x BRL 349,90 free of interest</span></p>
+                    </div>
+                    <div class="machine-description">
+                        <p>For a full and carefree experience, options that will please you
+                            and your whole family. Meet the machine that orders your favorite
+                            Nespresso just by pressing a button.</p>
+                    </div>
+                    <div class="machine-buttons">
+                        <div class="button button-gold">
+                            <a class="open-modal" href="javascript:void(0)">+ DETAILS ABOUT THE PACK</a>
+                        </div>
+                        <select class="custom-select">
+                            <option value="" disabled selected>CHOOSE YOUR COLOR AND VOLTAGE</option>
+                            <option value="btn-01">110v</option>
+                        </select>
+                        <div class="button button-green button-fake">
+                            <a href="javascript:void(0)">buy</a>
+                        </div>
+                        <div class="add-to-bag btn-01" data-product-id="J520-BR-ME-NE" data-button-size="large"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="video">
+        <div class="gridD">
+            <div class="video">
+                <a data-fancybox href="https://www.youtube.com/watch?v=E2reJoKUYwY" class="icon-video">
+                    <img src="https://nespressotrade.com.br/shared_res/sustentabilidade/icon-play.png" alt="">
+                </a>
+                <h3>clique para assistir ao vídeo</h3>
+            </div>
+        </div>
+    </div>
+
+    <section id="questions">
+        <div class="gridD">
+            <h2>FAQ</h2>
+            <div class="accordions-questions"></div>
+            <div class="info">
+                <p>Offer valid for machines purchased from 01/02/2021 to 30/09/2021.
+                    <br />In case of queries, please call us at 0800 777 737.</p>
+            </div>
+            <div class="button button-dark-green">
+                <a class="toggle-terms" href="javascript:void(0)" class="toggle-terms"><span>+</span><span style="display: none;">-</span>TERMS AND CONDITIONS</a>
+            </div>
+            <div id="terms">
+                <p><strong>TERMOS E CONDIÇÕES – IN BETWEEN ALWAYS ON 2020</strong></p>
+                <br />
+                <p>Estes Termos e Condições prevalecerão em caso de qualquer conflito ou inconsistência com quaisquer outras comunicações, inclusive materiais publicitários promocionais. As instruções de inscrição são parte integrante destes Termos e Condições e, mediante a inscrição, será considerado que todos os participantes as aceitaram e estão de acordo com elas. Solicitamos que seja mantida uma cópia para fins consulta.</p>
+                <p><strong>1. OFERTA</strong></p>
+                <p>a) Oferta válida de 01/02/2021 a 30/09/2021, apenas para pessoas físicas portadoras de CPF e maiores de 18 anos e clientes classificados pela Nespresso® na categoria B2C offices.</p>
+                <p>b) Para participar da oferta, a máquina Nespresso® deverá ser adquirida entre as datas indicadas em um dos parceiros de varejo associados da Nespresso® (consulte a lista de lojas parceiras em www.nespresso.com/presente) ou em um dos canais de compra oficiais da marca: Boutiques Nespresso®, telefone 0800 7777 737, site www.nespresso.com ou aplicativos para iPhone, iPad e Android.</p>
+                <p>c) Ao comprar máquina de café Nespresso® no período de 01/02/2021 a 30/09/2021 e seguir os procedimentos relacionados descritos abaixo, o consumidor receberá uma seleção composta por 80 cápsulas de cafés Nespresso® pré-definidos, sendo 20 cápsulas de café Ristretto Italiano, 20 cápsulas de café Firenze Arpeggio, 10 cápsulas de café Genova Livanto, 10 cápsulas de café Volluto, 10 cápsulas de café Roma, 10 cápsulas de café Linizio Lungo, com valor agregado de R$ 200,00 e 1 (um) voucher impresso com um código promocional único que, quando utilizado dentro de seus termos e condições, concederá ao cliente dois meses gratuitos de Assinatura de café Nespresso® (1º e 6º mês), com valor agregado total de R$ 253,00, como um segundo presente, ao se registrarem e ativarem uma Assinatura de café até as 23h59 do dia 30/10/2020.</p>
+                <p>d) O pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional para assinatura serão uma cortesia com o valor agregado de R$ 453,00 e não podem ser alterados nem substituídos por nenhuma outra variação.</p>
+                <p>e) A data e o valor da compra da máquina Nespresso® devem ser comprovados por meio da Nota ou Cupom Fiscal de compra datada de 01/02/2021 a 30/09/2021, com a descrição da data de compra e a máquina Nespresso® adquirida. </p>
+                <p>f) Essa oferta é limitada a 3 (três) máquinas por pessoa, sendo esse controle feito por meio do número de Cadastro de Pessoas Físicas (CPF) e nota fiscal emitida de 01/02/2021 a 30/09/2021. Se o cliente comprar três máquinas, ele será elegível a receber 3 packs com a seleção composta por 80 cápsulas de cafés prédefinidos pela Nespresso® e será apenas elegível para realizar o cadastro de apenas uma assinatura. Caso o cliente deseje, pode transferir o cartão de assinatura para outra pessoa.</p>
+                <p><strong>2. MÁQUINAS COMPRADAS NOS CANAIS NESPRESSO® (Boutiques, nespresso.com e 0800 7777 737):</strong></p>
+                <p>a) Ao adquirir uma máquina de café em uma das Boutiques Nespresso® dentro do período da campanha, o cliente receberá em mãos, o pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional para assinatura, que dá direito a 2 meses de assinatura grátis, sendo que o voucher será aplicado no primeiro e o sexto mês da assinatura.</p>
+                <p>b) Para máquinas compradas pelo telefone 0800 7777 737, o atendente irá realizar o envio do pack com a seleção composta por 80 cápsulas de cafés pré-definidos e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês), para o endereço escolhido pelo titular da nota fiscal.</p>
+                <p>c) Para máquinas compradas pelo website www.nespresso.com e ou pelo aplicativo móvel para iPhone, iPad e Android, o pack com a seleção composta por 80 cápsulas de cafés pré-definidos e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês), serão enviados automaticamente para o endereço escolhido pelo titular da nota fiscal. Uma confirmação sobre o envio será enviada ao e-mail registrado em até 4 (quatro) dias úteis.</p>
+                <p><strong>3. MÁQUINAS COMPRADAS EM LOJAS PARCEIRAS CREDENCIADAS</strong></p>
+                <p>a) Os consumidores que comprarem máquinas Nespresso® em lojas parceiras poderão receber seu o pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês) de duas formas: (1) pela internet, em sua conta Nespresso®; ou (2) pessoalmente, em uma Boutique Nespresso®.</p>
+                <p>b) Os consumidores que comprarem máquinas Nespresso® nas lojas parceiras Dufry Brasil (apenas em território brasileiro) deverão seguir o processo de resgate dos presentes, exclusivamente pela da nossa central de telefone 0800 7777 737, até dia 15/10/2021.</p>
+                <p>c) O consumidor que optar por resgatar o pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês) pela internet, deverá acessar o site de ofertas www.nespresso.com/presente e efetuar seu cadastro com CPF, chave de acesso da Nota Fiscal da máquina (número de 44 dígitos presentes no Danfe / Cupom Fiscal Eletrônico) e número de série da máquina (código composto por 19 caracteres, sendo letras e números, localizado na cesta coletora de cápsulas). O prazo para registro no site, segundo as regras destes Termos e Condições, é até o dia 15/10/2021.</p>
+                <p>d) O pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês), serão liberados para envio após a validação da documentação citada, em até 04 dias úteis, sendo que a confirmação da disponibilidade dos presentes será enviada para o e-mail registrado ou o consumidor poderá consultar no site www.nespresso.com/presente. Após a validação, o pack e o voucher serão enviados e entregues no endereço indicado pelo consumidor.</p>
+                <p>e) O consumidor que optar por receber o pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês) pessoalmente, deverá apresentar o número de série da máquina (código de barras localizado na embalagem e na cesta coletora de cápsulas), CPF e Nota ou Cupom Fiscal de compra, em uma Boutique Nespresso® abertas até o dia 15/10/2021. Com os documentos todos validados, os presentes são disponibilizados no mesmo momento para o cliente.</p>
+                <p>f) O comprovante do cartão de crédito e/ou débito não será aceito como comprovante de compra e/ou em substituição ao envio do Cupom ou Nota Fiscal de compra.</p>
+                <p><strong>4. COMO EFETUAR A ASSINATURA</strong></p>
+                <p>a) Para efetuar a assinatura, o registro e a ativação da Assinatura de café devem ser feitos exclusivamente acessando o site https://www.nespresso.com/br/pt/ativarassinatura e concluindo o processo de registro. Caso o participante deixe de se registrar e de ativar uma Assinatura de café até as 23h59 do dia 30/10/2021, a oferta de dois meses gratuitos se tornará nula e sem efeito.</p>
+                <p>b) No momento do registro, com o objetivo de armazenarmos os dados do seu cartão para as próximas mensalidades, haverá um pagamento simbólico de R$1,00 que retornará como crédito em sua conta Nespresso®.</p>
+                <p>c) Os clientes devem efetuar o pagamento via cartão de crédito, dos meses nos quais não oferecemos a gratuidade, ou seja 2º, 3º, 4º e 5º mês e os meses subsequentes. Caso a Assinatura de café seja cancelada, pausada ou tenha o pagamento interrompido antes do 6º mês, o cliente não estará qualificado para o 6º mês gratuito.</p>
+                <p>d) Para ativar e efetuar a Assinatura, o registro precisa ser feito com a inclusão do número de cartão de crédito, pois não existe outra forma de pagamento para os meses nos quais não oferecemos a gratuidade.</p>
+                <p>e) O prazo para efetuar a assinatura é 01/02/2021 a 30/10/2021 e deverá ser realizado exclusivamente pelo site https://www.nespresso.com/br/pt/ativar-assinatura</p>
+                <p><strong>5. OUTRAS DISPOSIÇÕES</strong></p>
+                <p>a) Os itens Nespresso® gratuitos estão sujeitos à disponibilidade de estoque, e a Nespresso® se reserva o direito de complementar esta oferta com itens alternativos de valor equivalente (preço de varejo de R$ 453,00) para as duas ofertas na aquisição de uma máquina de café Nespresso®, em caso de circunstâncias imprevistas ou indisponibilidade de estoque. Não haverá alternativa de quantia em dinheiro disponível para substituir os itens indicados.</p>
+                <p>b) Oferta não cumulativa com outras em andamento, válida de 01/02/2021 a 30/09/2021 ou enquanto durarem os estoques.</p>
+                <p>c) O pack com a seleção composta por 80 cápsulas de cafés pré-definidos pela Nespresso® e voucher impresso com código promocional que dá direito a 2 meses de assinatura grátis (o primeiro e o sexto mês) serão enviados para o endereço indicado pelo consumidor. É de extrema importância que o consumidor insira o endereço correto na hora da solicitação.</p>
+                <p>d) A Nespresso® se reserva o direito, a seu critério exclusivo, de desqualificar qualquer indivíduo que interferir com o funcionamento da promoção, criar várias contas, utilizar várias identidades ou agir de qualquer outra forma que seja considerada pela Nespresso® como uma violação dos Termos e Condições ou de alguma outra maneira prejudicial.</p>
+                <p>e) O benefício da Assinatura pode ser ou não aderido pelo consumidor e fica sob sua escolha se deseja realizar a Assinatura para receber os dois meses grátis ou não. Caso o consumidor decida por não aderir, ele continua tendo direito a seleção de 80 cápsulas predefinidas pela Nespresso®.</p>
+                <p>f) Essa oferta é válida para a Assinatura Nespresso® realizada exclusivamente pelo site www.nespresso.com/br/pt/ativar-assinatura. É válida apenas para o tipo de Plano Descobridor e não é válida para nenhuma outra Assinatura vigente no site  Nespresso®.</p>
+                <p>g) Se o consumidor optar por aderir a assinatura Nespresso®, ele terá o direito de cancelar a assinatura a qualquer momento, sem prejuízos. Porém, se o cancelamento da Assinatura for feito, o consumidor não terá direito ao sexto mês grátis.</p>
+                <p>h) Clientes Nespresso® que já tem uma Assinatura Nespresso®, não tem direito de participar da oferta, pois cada cliente pode ter apenas uma assinatura por CPF. Oferta válida apenas para novos assinantes.</p>
+                <p>i) A oferta não é válida para máquinas da linha Nespresso® Professional.</p>
+                <p>j) A oferta é válida somente para máquinas Nespresso® compradas em território nacional em qualquer um dos canais oficiais Nespresso® - Boutiques Nespresso®, telefone 0800 7777 737, site www.nespresso.com ou aplicativos para iPhone, iPad e Android ou em uma de nossas lojas parceiras.</p>
+                <p>k) A promoção não é válida para pessoas que não possuam o Cadastro de Pessoa Física (CPF).</p>
+                <p>l) O modo de entrega Clique & Retire (retirada em loja em todas as Boutiques Nespresso®) será válido. O prazo para retirada é de 1 (um) dia, ou seja, no dia seguinte da compra.</p>
+                <p>m) Imagens meramente ilustrativas.</p>
+                <p>n) Em caso de dúvidas ou necessidade de informações adicionais, entre em contato com um de nossos Especialistas de Café pelo telefone gratuito 0800 7777 737 (24 horas por dia, 7 dias por semana).</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="info-bottom">
+        <div class="gridD">
+            <p>Offer valid for machines purchased from 01/02/2021 to 30/09/2021. In case of queries, please call us at 0800 777 737.</p>
+        </div>
+    </section>
+
+    <div id="modal-capsules">
+        <div class="modal-content">
+            <div class="gridD">
+                <div class="modal-close">
+                    <img src="https://nespressotrade.com.br/shared_res/always-2021/icon-close.png" alt="">
+                </div>
+                <div class="slick-capsules">
+                    <div class="capsule">
+                        <div class="capsule-image">
+                            <img src="https://nespressotrade.com.br/shared_res/always-2021/ristretto-italiano.png" alt="">
+                        </div>
+                        <div class="capsule-name">
+                            <h4>Ristretto Italiano</h4>
+                        </div>
+                        <div class="capsule-description">
+                            <p>Powerful and contrasting</p>
+                        </div>
+                        <div class="capsule-intensity">
+                            <p>INTENSITY</p>
+                            <ul class="intensity-line" data-intensity="10"></ul>
+                        </div>
+                        <div class="capsule-size">
+                            <p>20 CAPSULES</p>
+                        </div>
+                    </div>
+                    <div class="capsule">
+                        <div class="capsule-image">
+                            <img src="https://nespressotrade.com.br/shared_res/always-2021/linizio-lungo.png" alt="">
+                        </div>
+                        <div class="capsule-name">
+                            <h4>Linizio Lungo</h4>
+                        </div>
+                        <div class="capsule-description">
+                            <p>Smooth and harmonized</p>
+                        </div>
+                        <div class="capsule-intensity">
+                            <p>INTENSITY</p>
+                            <ul class="intensity-line" data-intensity="4"></ul>
+                        </div>
+                        <div class="capsule-size">
+                            <p>10 CAPSULES</p>
+                        </div>
+                    </div>
+                    <div class="capsule">
+                        <div class="capsule-image">
+                            <img src="https://nespressotrade.com.br/shared_res/always-2021/firenze-arpeggio.png" alt="">
+                        </div>
+                        <div class="capsule-name">
+                            <h4>Firenze Arpeggio</h4>
+                        </div>
+                        <div class="capsule-description">
+                            <p>Intense and creamy</p>
+                        </div>
+                        <div class="capsule-intensity">
+                            <p>INTENSITY</p>
+                            <ul class="intensity-line" data-intensity="10"></ul>
+                        </div>
+                        <div class="capsule-size">
+                            <p>20 CAPSULES</p>
+                        </div>
+                    </div>
+                    <div class="capsule">
+                        <div class="capsule-image">
+                            <img src="https://nespressotrade.com.br/shared_res/always-2021/roma.png" alt="">
+                        </div>
+                        <div class="capsule-name">
+                            <h4>Roma</h4>
+                        </div>
+                        <div class="capsule-description">
+                            <p>Full-bodied and balanced</p>
+                        </div>
+                        <div class="capsule-intensity">
+                            <p>INTENSITY</p>
+                            <ul class="intensity-line" data-intensity="8"></ul>
+                        </div>
+                        <div class="capsule-size">
+                            <p>10 CAPSULES</p>
+                        </div>
+                    </div>
+                    <div class="capsule">
+                        <div class="capsule-image">
+                            <img src="https://nespressotrade.com.br/shared_res/always-2021/genova-livanto.png" alt="">
+                        </div>
+                        <div class="capsule-name">
+                            <h4>Genova Livanto</h4>
+                        </div>
+                        <div class="capsule-description">
+                            <p>Round and balanced</p>
+                        </div>
+                        <div class="capsule-intensity">
+                            <p>INTENSITY</p>
+                            <ul class="intensity-line" data-intensity="6"></ul>
+                        </div>
+                        <div class="capsule-size">
+                            <p>20 CAPSULES</p>
+                        </div>
+                    </div>
+                    <div class="capsule">
+                        <div class="capsule-image">
+                            <img src="https://nespressotrade.com.br/shared_res/always-2021/volluto.png" alt="">
+                        </div>
+                        <div class="capsule-name">
+                            <h4>Volluto</h4>
+                        </div>
+                        <div class="capsule-description">
+                            <p>Sweet and light</p>
+                        </div>
+                        <div class="capsule-intensity">
+                            <p>INTENSITY</p>
+                            <ul class="intensity-line" data-intensity="4"></ul>
+                        </div>
+                        <div class="capsule-size">
+                            <p>10 CAPSULES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/libs/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('.slick-machines').slick({
+            dots: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+        $('.intensity-line').each(function() {
+            var intensity = $(this).attr('data-intensity')
+            for (var i = 1; i <= 13; i++) {
+                if (i == intensity) {
+                    $(this).append('<li class="value-intensity"><span>'+ intensity +'</span></li>')
+                } else if (i > intensity) {
+                    $(this).append('<li class="value-empty"></li>')
+                } else {
+                    $(this).append('<li></li>')
+                }
+            }
+        })
+        $('.open-modal').on('click', function(e) {
+            e.preventDefault()
+
+            $('#modal-capsules').fadeIn();
+
+            $('.slick-capsules:not(".slick-initialized")').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        })
+
+        $('.modal-close').on('click', function(e) {
+            $('#modal-capsules').fadeOut()
+        })
+
+        $('.toggle-terms').on('click', function(e) {
+            e.preventDefault();
+
+            $(this).find('span').toggle()
+            $('#terms').slideToggle('')
+        })
+
+        $('body').on('change', '.custom-select', function(e) {
+            var selected = $(this).find('option:selected'),
+                val = selected.val()
+
+            $(this).parent().find('.button-fake').remove()
+            $(this).parent().find('.add-to-bag').hide()
+            $(this).parent().find('.add-to-bag.' + val).show()
+        })
+
+        $('.button-fake').on('click', function(e) {
+            alert('Selecione a cor e a voltagem')
+        })
+
+        $('body').on('click', '.accordion-open', function(e) {
+            var accordion = $(this).attr('data-accordion')
+            $(this).find('img').toggle()
+            $(this).parent().parent().find('.accordion-content').fadeIn()
+            $(this).removeClass('accordion-open').addClass('accordion-close')
+            if ($(window).width() > 767) {
+                $(this).parent().parent().parent().find('.accordion').removeClass('accordion-active').hide();
+            }
+            $(this).parent().parent().parent().find('.accordion[data-accordion="'+ accordion +'"]').addClass('accordion-active').fadeIn();
+        })
+        
+        $('body').on('click', '.accordion-close',function(e) {
+            $(this).find('img').toggle()
+            $(this).parent().parent().find('.accordion-content').hide()
+            $(this).addClass('accordion-open').removeClass('accordion-close')
+            $(this).parent().parent().parent().find('.accordion').removeClass('accordion-active').show();
+        })
+    </script>
+    <script>
+        var questions = [
+            {
+                title: 'How long is the offer valid?',
+                content: 'The offer is valid from 02/01/2021 to 09/30/2021, only to people holding an individual taxpayer registration (CPF) and may not be combined with any other ongoing offer.'
+            },
+            {
+                title: 'Is the offer valid for legal entities?',
+                content: 'No. The offer is valid only to individual customers (holding an individual taxpayer registration - CPF).'
+            },
+            {
+                title: 'Which coffees are included in my selection of 80 capsules?',
+                content: "When buying a Nespresso coffee machine between 02/01/2021 and 09/30/2021, the consumer will receive two special gifts! The first is a selection of 80 predefined Nespresso coffee capsules, including 20 capsules of Ristretto Italiano, 20 capsules of Firenze Arpeggio, 10 capsules of Genova Livanto, 10 capsules of Volluto, 10 capsules of Roma, and 10 capsules of Linizio Lungo, amounting to BRL 200.00. The second gift is given when they activate a coffee Subscription through the website  www.nespresso.com/br/pt/ativarassinatura by 10/30/2021 11:59 PM, this is 1 (one) printed voucher with a unique promotional code that, whenever used within its terms and conditions, will grant the client 2 free months of Nespresso Subscription (the 1st and the 6th month), amounting to BRL 253.00."
+            },
+            {
+                title: 'I have bought a machine at a partner store. When can I access the platform or go to a Boutique to redeem my 80 capsules and the Subscription voucher?',
+                content: 'You may sign up at the website Nespresso Presente or redeem your 80-capsule pack and the printed voucher with the promotional code to enjoy 2 months of free Subscription (the 1st and the 6th month) by 10/15/2021.'
+            },
+            {
+                title: 'Can I redeem my 80 capsules and the Subscription voucher at a Nespresso Boutique?',
+                content: 'Yes. If the client has purchased the machine at a partner store, they may redeem the capsules and the Subscription voucher through the website www.nespresso.com/presente or at any Nespresso Boutique.'
+            },
+            {
+                title: 'I have submitted my documents, waited more than 4 business days and have not received my 80 capsules and Subscription voucher yet. What should I do?',
+                content: 'The client must call our customer service at 0800 7777 737.'
+            },
+            {
+                title: 'I have purchased a coffee machine through the WEBSITE, BOUTIQUE, Nespresso APP or Nespresso’s Toll Free. Can I join this offer?',
+                content: 'Yes. The offer is valid for machines purchased through every Nespresso channel (Boutique, Website, App, or Phone), as well as partner stores* (authorized retailers who sell Nespresso coffee machines at points of sale or on websites).'
+            },
+            {
+                title: 'I bought the machine at a partner store a day before the offer was launched, as I was not aware of it. Can I submit my documents?',
+                content: 'No. The offer is valid for machines purchased from 01/02/2021 to 30/09/2021.'
+            },
+            {
+                title: 'I have bought 3 machines and I want 240 capsules and 3 vouchers, what should I do?',
+                content: 'This offer is limited to 03 machines per person. Therefore, the client may receive 3 packs with a selection of 80 coffee capsules as predefined by Nespresso, but the buyer will only be eligible to sign up for one Subscription. If they wish, the client may transfer the Subscription card to someone else.'
+            },
+            {
+                title: 'Can I exchange the coffee selection included in the 80-capsule pack for other coffees of the same price when placing my order?',
+                content: 'No. The pack with a selection of 80 coffee capsules as predefined by Nespresso and the Subscription voucher are complimentary, amounting to BRL 450.00, and may not be changed or replaced by any other variation.'
+            },
+            {
+                title: 'I have tried to add my information in the platform to redeem my 80-capsule pack and Subscription voucher, but an error message shows up. What should I do?',
+                content: 'The client must call our customer service at 0800 7777 737 so we can look into their issue.'
+            },
+            {
+                title: 'I have bought a Nespresso machine and redeemed my 80 capsules. Am I bound to use my Subscription voucher?',
+                content: 'The benefit of the Subscription voucher may or not be adhered to by the customer. It is their choice to sign up for a Subscription to get 2 free months or not. If the customer decides not to sign up, they are still entitled to the 80-capsule selection as predefined by Nespresso.'
+            }
+        ]
+
+        $(document).ready(function(e) {
+            questions.map(function(question) {
+                $('.accordions-questions').append(
+                    '<div class="accordion">'+
+                        '<div class="accordion-grid">'+
+                            '<div class="accordion-title">'+
+                                '<h5>'+ question.title +'</h5>'+
+                            '</div>'+
+                            '<div class="accordion-content">'+
+                                '<p>'+ question.content +'</p>'+
+                            '</div>'+
+                        '</div>'+
+                    '</div>'
+                )
+            })
+        })
+
+        $('body').on('click', '.accordions-questions .accordion-title',function() {
+            $(this).parent().find('.accordion-content').slideToggle()
+            $(this).parent().parent().toggleClass('accordion-active')
+        })
+    </script>
+</div>
